@@ -8,8 +8,8 @@
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-11T00:27:29Z",
-  "expires_at": "2026-10-11T06:22:29Z",
+  "started_at": "2026-10-11T01:26:31Z",
+  "expires_at": "2026-10-11T07:21:31Z",
   "duration_menit": 355,
   "run_id": "38098212784",
   "run_number": "1",
@@ -42,16 +42,16 @@
   },
   "grafis": {
     "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
-    "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
     "dir": "C:\\XyRDP\\grafis",
+    "mesa": "26.2.4",
+    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
+    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
+    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
+    "debug": "",
     "adapters": "Microsoft Hyper-V Video",
     "install": "mesa 26.2.4.0 [Mesa/X.org]",
-    "mode": "software",
-    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
-    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
-    "debug": "",
-    "mesa": "26.2.4",
-    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)"
+    "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
+    "mode": "software"
   },
   "extras": {
     "lightshot": "skip",
@@ -63,7 +63,6 @@
     "admin": true
   },
   "akses": {
-    "mode": "tailscale",
     "tailscale": {
       "note": "Installer Tailscale gagal, exit 1603",
       "status": "failed",
@@ -71,7 +70,8 @@
       "magicdns": "",
       "hostname": "",
       "funnel_addr": ""
-    }
+    },
+    "mode": "tailscale"
   },
-  "stopped_at": "2026-10-11T00:28:14Z"
+  "stopped_at": "2026-10-11T01:27:17Z"
 }
